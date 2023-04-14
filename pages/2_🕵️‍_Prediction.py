@@ -28,7 +28,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 #main page layout
 ######################
 
-st.subheader("To predict the default probability, you need to follow the steps below:")
+st.subheader("To predict the churn probability, you need to follow the steps below:")
 st.markdown(
     """
     1. Choose the model threhold to determine how conservative the model is;
