@@ -79,7 +79,7 @@ Total_Ct_Chng_Q4_Q1 = st.sidebar.slider("Total_Ct_Chng_Q4_Q1:",min_value=0.0, ma
 Total_Amt_Chng_Q4_Q1 = st.sidebar.slider("Total_Amt_Chng_Q4_Q1:",min_value=0.0, max_value=5.0, step=0.01, value = 0.3)
 Total_Revolving_Bal = st.sidebar.slider("Total_Revolving_Bal:",min_value=0, max_value=3000, step=100, value = 500)
 Total_Relationship_Count = st.sidebar.slider("Total_Relationship_Count:",min_value=1, max_value=6, step=1, value=1)
-Avg_Utilization_Ratio = st.sidebar.slider("Avg_Utilization_Ratio:",min_value=0.0, max_value=1.0, step=0.01, value = 0.1)
+Avg_Utilization_Ratio = st.sidebar.slider("Avg_Utilization_Ratio:",min_value=0.0, max_value=1.0, step=0.01, value = 0.10)
 Months_Inactive_12_mon = st.sidebar.slider("Months_Inactive_12_mon:",min_value=0, max_value=6, step=1, value = 5)
 Contacts_Count_12_mon = st.sidebar.slider("Contacts_Count_12_mon:",min_value=0, max_value=6, step=1, value = 1)
 Credit_Limit = st.sidebar.slider("Credit_Limit:",min_value=0, max_value=40000, step=100, value = 2000)
