@@ -169,10 +169,10 @@ if btn_predict:
     st.subheader("The prediction result: ")
     pred = model.predict_proba(user_input)[:, 1]
     if pred[0] > threshold:
-        st.error('The applicant has a high probability to churn!')
+        st.error('The customer has a high probability to churn!')
         st.write(f'Probability of churn: {round(pred[0],2)}')
     else:
-        st.success('The aplicant has a low probability to churn!')
+        st.success('The customer has a low probability to churn!')
         st.write(f'Probability of churn: {round(pred[0],2)}')
 
 
